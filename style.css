@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(78, 80, 85);
+    background-image:  url(vecteezy_abstract-neon-light-gaming-background-generated-by-ai_25934704.jpg);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(48, 39, 74);
+    margin: 10px 5px 10px 5px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+}
+
+
+.game-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(52, 95, 204);
+    margin-top: 50px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+h1{
+    margin-top: 50px;
+    color: white;
+    text-decoration: underline;
+}
+.restartBtn{
+    background-color: rgba(24, 54, 245, 0.941);
+    padding: 10px 20px 10px 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.game-player{
+    display: flex;
+    }
+
+.player1{
+    display: flex;
+    margin-right: 50px;
+    margin-top: 30px;
+    color: white;
+    background-color: rgb(48, 39, 74);
+    padding: 10px 20px 10px 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.player2{
+    color: white;
+    padding: 5px 5px 5px 5px;
+    margin-top: 30px;
+    background-color: rgb(48, 39, 74);
+    padding: 10px 20px 10px 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.alert-box{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 5px ;
+    font-size: larger;
+    font-weight: 700;
+    height: 30px;
+    display: none;
+}
